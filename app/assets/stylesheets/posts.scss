@@ -1,0 +1,133 @@
+/* posts/index ================================ */
+.posts-index-item {
+  max-width: 600px;
+  min-height: 200px;
+  padding: 10px 15px;
+  clear: both;
+  background-color: rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  box-shadow: 0 2px 6px #c1ced7;
+}
+
+.post-header {
+  width: 100%;
+  height:55px;
+}
+
+.post-user-icon {
+  width: 50px;
+  height: 50px;
+  float: left;
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+    box-shadow: 0 2px 6px #c1ced7;
+    object-fit: cover;
+  }
+}
+.post-user-name  {
+  font-size: 20px;
+  width: auto;
+  height: 30px;
+  float: left;
+  padding-left: 10px;
+  padding-top: 10px;
+
+    a {
+    color: white;
+    &:hover {
+      color: gold;
+    }
+  }
+}
+
+
+.post-image {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  object-position: center;
+  img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+  }
+}
+
+.none-posts-message {
+  padding: 20px 200px;
+  background-color: rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  box-shadow: 0 2px 6px #c1ced7;
+  h1 {
+    font-family: serif;
+    font-size: 20px;
+  }
+}
+
+/* posts/show ================================ */
+.posts-show form {
+  display: inline;
+}
+
+.posts-show-item {
+  padding-top: 20px;
+  padding-left: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px #c1ced7;
+  overflow: hidden;
+  color: white;
+}
+.post-content {
+  a {
+    color: white;
+    &:hover {
+      color: gold;
+    }
+  }
+}
+
+.post-likes {
+  padding-left: 10px;
+  float: left;
+}
+
+.like-btn-unlike {
+  color: #ff2581;
+}
+
+.like-btn {
+  color: #8899a6;
+}
+
+.post-menus {
+  padding-right: 10px;
+  float: right;
+}
+
+.post-menus a, .post-menus input {
+  color: #8899a6;
+  text-decoration: underline;
+  font-size: 14px;
+  float:left;
+}
+
+/* posts/new ================================ */
+.posts-new {
+  textarea {
+    font-size: 20px;
+    padding: 10px;
+    min-height: 140px;
+    border: 1px solid gray;
+    resize: none;
+  }
+}
+
+.form-heading {
+  color:white;
+}
+
+.posts-new textarea::-webkit-input-placeholder {
+  font-size: 24px;
+  opacity: 0.5;
+}
